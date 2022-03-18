@@ -9,10 +9,9 @@ new TypeIt("#description", {
     startDelay: 200,
     loop: true
 })
-.type("I like programming in Python.")
+.type("I like programming.")
 .pause(2000)
-.delete(29)
-.type("I like to use Solus Linux.")
+.delete(19)
+.type("I like to use Linux.")
 .pause(2000)
-.delete(29)
 .go()
