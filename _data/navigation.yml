@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: 404
+  link: /404.html
