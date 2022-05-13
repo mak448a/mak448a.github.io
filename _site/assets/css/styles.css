@@ -59,5 +59,13 @@ nav {
   .burger {
     display: block;
     padding-bottom: 1rem;
-    padding-right: 50vw;
+    padding-right: 52.5vw;
     padding-left: 50vw; } }
+.projectList {
+  margin-left: 3rem; }
+
+.projectList ul {
+  display: inline; }
+
+.projectList li {
+  display: block; }
