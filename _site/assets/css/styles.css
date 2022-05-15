@@ -1,9 +1,6 @@
 :root {
   --text: rgb(38, 71, 32); }
 
-.current {
-  color: #00c500; }
-
 .navbarlink {
   color: #0f610f; }
 
@@ -61,11 +58,15 @@ nav {
     padding-bottom: 1rem;
     padding-right: 52.5vw;
     padding-left: 50vw; } }
-.projectList {
-  margin-left: 3rem; }
-
 .projectList ul {
   display: inline; }
 
 .projectList li {
   display: block; }
+
+.mak448a {
+  text-decoration: none;
+  color: var(--text); }
+
+.mak448a:hover {
+  text-decoration: underline; }

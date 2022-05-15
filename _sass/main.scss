@@ -2,14 +2,6 @@
     --text: rgb(38, 71, 32);
 }
 
-
-
-
-
-.current {
-    color: rgb(0, 197, 0);
-}
-
 .navbarlink {
     color: rgb(15, 97, 15);
 }
@@ -90,4 +82,13 @@ nav {
 
 .projectList li {
     display: block;
+}
+
+
+.mak448a {
+    text-decoration: none;
+    color: var(--text);
+}
+.mak448a:hover {
+    text-decoration: underline;
 }
