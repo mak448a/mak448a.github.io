@@ -58,12 +58,6 @@ nav {
     padding-bottom: 1rem;
     padding-right: 52.5vw;
     padding-left: 50vw; } }
-.projectList ul {
-  display: inline; }
-
-.projectList li {
-  display: block; }
-
 .mak448a {
   text-decoration: none;
   color: var(--text); }
