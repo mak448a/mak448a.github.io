@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /originalcode/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://mak448a.github.io/sitemap.xml
