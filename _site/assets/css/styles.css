@@ -1,7 +1,7 @@
 :root {
   --text: rgb(38, 71, 32); }
 
-.navbarlink {
+.navbarLink {
   color: #0f610f; }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -36,11 +36,11 @@ nav {
 
 .burger {
   padding: .5rem 1rem .5rem 1rem;
-  display: none; }
+  display: none;
+  color: black; }
 
 .burger:hover {
-  background-color: #2ecc75;
-  color: black; }
+  background-color: #2ecc75; }
 
 @media (max-width: 680px) {
   nav {
@@ -67,3 +67,6 @@ nav {
 
 li {
   list-style-position: inside; }
+
+.activeLink {
+  color: black; }

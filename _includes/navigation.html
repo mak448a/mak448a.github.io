@@ -2,7 +2,10 @@
     <ul class="navUl" id="myLinks">
         {% for item in site.data.navigation %}
         <li>
-            <a href="{{ item.link }}" class="navbarlink navA">
+            <a href="{{ item.link }}" 
+            class="navbarLink navA 
+            {% if item.link == page.url %}activeLink{% endif %}
+            ">
                 {{ item.name }}
             </a>
         </li>
@@ -12,7 +15,7 @@
         <a href="/" class="mak448a">@mak448a</a>
     </h1>
 
-    <a href="javascript:void(0);" class="icon burger" style="color: var(--text)" onclick="myFunction()">
+    <a href="javascript:void(0);" class="icon burger" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
 </nav>
