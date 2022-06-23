@@ -1,1 +1,0 @@
-Add navbar mobile press on background of button in navigation also clicks link
