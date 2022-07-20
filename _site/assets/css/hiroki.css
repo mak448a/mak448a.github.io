@@ -5,7 +5,7 @@ h1 {
 
 /* Sets the width for the accordion. Sets the margin to 90px on the top and bottom and auto to the left and right */
 .accordion {
-  width: 50rem;
+  width: 75vw;
   margin: auto;
   color: black;
   background-color: white;
@@ -29,8 +29,8 @@ h1 {
   color: black;
   position: absolute;
   top: 50%;
-  right: -5px;
-  font-size: 30px;
+  right: -.3rem;
+  font-size: 1.5em;
   transform: translateY(-50%); }
 
 /* Hides the content (height: 0), decreases font size, justifies text and adds transition */
@@ -40,7 +40,7 @@ h1 {
   height: 0;
   font-size: 1.2em;
   text-align: justify;
-  width: 48rem;
+  width: 70vw;
   overflow: hidden;
   transition: 0.5s; }
 
