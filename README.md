@@ -1,6 +1,6 @@
 # mak448a.github.io
 
-This is my website.
+This is my website, where I have links to my projects.
 
 
 ## Run/Debug Info
