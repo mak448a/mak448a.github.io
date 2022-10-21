@@ -7,3 +7,10 @@ This is my website, where I have links to my projects.
 
 To run on a server, bundle exec jekyll serve
 To build, bundle exec jekyll build
+
+## Note to self
+
+Please, enter the toolbox!
+```
+toolbox enter
+```
