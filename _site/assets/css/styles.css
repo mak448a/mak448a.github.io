@@ -2,6 +2,10 @@
   --text: rgb(38, 71, 32);
 }
 
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .navbarLink {
   color: rgb(15, 97, 15);
 }
