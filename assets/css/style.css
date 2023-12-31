@@ -2,7 +2,7 @@
     --text: rgb(20, 20, 20);
     --background: rgb(248, 248, 248);
     --highlight: rgb(0, 221, 180);
-    --link-focused: rgb(0, 173, 141);
+    --highlight-focused: rgb(177, 255, 241);
     --banner-color: rgb(37, 107, 200);
     --font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,7 +12,7 @@
         --text: rgb(195, 195, 195);
         --background: rgb(47, 47, 47);
         --highlight: rgb(0, 255, 208);
-        --link-focused: rgb(0, 173, 141);
+        --highlight-focused: rgb(177, 255, 241);
         --banner-color: rgb(26, 76, 143);
     }
 }
@@ -114,7 +114,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--link-focused)
+    color: var(--highlight)
 }
 
 .hero {
@@ -209,4 +209,17 @@ button {
     padding: .5rem;
     color: white;
     border: none;
+}
+
+
+a:link {
+    color: var(--highlight);
+}
+
+a:visited {
+    color: var(--highlight);
+}
+
+a:hover {
+    color: var(--highlight-focused);
 }
