@@ -121,7 +121,7 @@ nav a:hover {
     text-align: center;
     border-radius: .5rem;
     /* box-shadow: .2rem .2rem .1rem black; */
-    outline: .1rem solid black;
+    /* outline: .1rem solid black; */
     margin: 0 .5rem 1rem .5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -151,57 +151,6 @@ nav a:hover {
 .centerText {
     text-align: center;
 }
-button {
-    margin: .5rem;
-}
-
-.feature:hover {
-    box-shadow: 0rem 0rem 1rem black;
-}
-
-.feature h2 {
-    color: var(--highlight)
-}
-
-@media screen and (max-width: 50rem) {
-    .feature {
-        width: 80vw;
-    }
-}
-
-
-#pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-radius: .5rem;
-}
-
-@media screen and (min-width: 50rem) {
-    #pic {
-        display: block;
-        /* margin-left: auto;
-        margin-right: auto; */
-        width: 60%;
-        border-radius: .5rem;
-    }
-}
-
-#pic:hover {
-    box-shadow: 0rem 0rem 1rem black;
-}
-
-
-.pfp {
-    width: 20vw;
-    border-radius: 100%;
-}
-
-.pfpText {
-    font-size: 1.5em;
-}
-
 
 .btn {
     background: var(--banner-color);
@@ -222,4 +171,33 @@ a:visited {
 
 a:hover {
     color: var(--highlight-focused);
+}
+
+.burger {
+    display: none;
+}
+
+
+@media (max-width: 680px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .navUl {
+        flex-direction: column;
+        order: 1;
+        font-size: 1.5rem;
+        gap: 1.5rem;
+        display:none
+    }
+
+    .burger {
+        display: block;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+
+    .mak448a {
+        text-align: center;
+    }
 }
