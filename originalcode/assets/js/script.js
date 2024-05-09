@@ -10,7 +10,7 @@ function myFunction() {
     }
 }
 
-// Do dynamic resizing with the hamburger menu stuff
+
 var windowBigger = false
 const interval = setInterval(function() {
     var x = document.getElementById("myLinks");
@@ -20,17 +20,3 @@ const interval = setInterval(function() {
 
     }
 }, 500);
-
-
-// Handle discord contact popup
-function toggleDiscordPopup() {
-    var popup = document.getElementById("discord-popup");
-    if ( popup.style.display === "block") {
-        popup.style.display = "none";
-    } else {
-        popup.style.display = "block";
-    }
-}
-
-// Bind it to the discord icon
-document.getElementById("discord-icon").addEventListener("click", toggleDiscordPopup);
