@@ -8,18 +8,33 @@
 
 
 <url>
-  <loc>http://mak448a.is-a.dev/</loc>
-  <lastmod>2024-05-09T02:59:13+00:00</lastmod>
+  <loc>https://mak448a.is-a.dev/</loc>
+  <lastmod>2024-07-12T23:25:50+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://mak448a.is-a.dev/projects</loc>
-  <lastmod>2024-05-09T02:59:13+00:00</lastmod>
+  <loc>https://mak448a.is-a.dev/projects</loc>
+  <lastmod>2024-07-12T23:25:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://mak448a.is-a.dev/privacy-policy</loc>
-  <lastmod>2024-05-09T02:59:13+00:00</lastmod>
+  <loc>https://mak448a.is-a.dev/blog</loc>
+  <lastmod>2024-07-12T23:25:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mak448a.is-a.dev/privacy-policy</loc>
+  <lastmod>2024-07-12T23:25:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mak448a.is-a.dev/projects.html</loc>
+  <lastmod>2024-07-12T23:25:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mak448a.is-a.dev/blog/create-burner-gmail</loc>
+  <lastmod>2024-07-12T23:25:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
