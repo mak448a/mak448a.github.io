@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to create a burner Gmail
+title: How to compile Godot to iOS without a Mac
 permalink: /blog/compile-ios-godot-without-mac
 ---
 
@@ -24,7 +24,7 @@ permalink: /blog/compile-ios-godot-without-mac
         <h2>Step 2: Create local GitHub repository</h2>
         <p>Download my starter repository at https://github.com/mak448a/build-ios. Next, copy the contents of that folder to your local repository.</p>
         <p>Open your local repository in your file manager and open to .github/workflows/build.yml. You may have to show hidden files if you're on Mac or Linux. Replace all occurences of "Example-Project" with your project name.</p>
-        <p>Shove your project export from Godot into your local repository.</p>
+        <p>Export your project using the iOS preset and shove the Xcode Project into your local repository.</p>
         <p>Run <code>git commit -m "Upload"</code> and <code>git push</code>.</p>
         <h2>Step 3: Download your build</h2>
         <p>Visit your repository URL on GitHub and go to the Actions tab. Click on the topmost entry. If it is still yellow, wait a little longer. If it's green, scroll to the bottom and click the download button. You may have to refresh the page to see the download.</p>
