@@ -2,17 +2,19 @@
 layout: default
 title: How to compile Godot to iOS without a Mac
 permalink: /blog/compile-ios-godot-without-mac
-description: Ever wanted to compile an IPA without owning a Mac/Apple PC? This guide is for you! You only need a GitHub account.
+description: Ever wanted to compile a Godot app to an iPhone IPA without owning a Mac/Apple PC? This guide is for you! You only need a GitHub account.
 ---
 
 <main>
     <div class="main-content">
         <h1>How to compile a Godot project to iOS without a Mac</h1>
-        <p>If you don't have a Mac, there's an easy way to compile Godot projects to iOS.</p>
+        <p>If you don't have a Mac, there's an easy way to compile Godot projects (or most XCode projects for that matter) to iOS.</p>
 
-
-        <p>Date: July 22, 2024</p>
+        <p><strong>Date: July 22, 2024</strong></p>
+        <p>Modified November 12, 2024</p>
         <p>Author: mak448a</p>
+
+
         <h2>Requirements</h2>
         <ul>
             <li>Git installed on your computer</li>
@@ -21,17 +23,37 @@ description: Ever wanted to compile an IPA without owning a Mac/Apple PC? This g
         </ul>
 
         <h2>Step 1: Setup GitHub repository</h2>
-        <p>First, create a GitHub repository. You may want to set it to private. Pull it to a folder on your computer like so: <code>git pull (github.com/user/yourrepourl)</code></p>  
+        <ol>
+            <li><p>First, create a GitHub repository. Set it to private if you don't want anyone downloading your game from here.</p></li>
+            <li><p>Now download it to your computer using git: <code>git pull (github.com/user/yourrepourl)</code></p></li>
+        </ol>
+
         <h2>Step 2: Create local GitHub repository</h2>
-        <p>Download my starter repository <a href="https://github.com/mak448a/build-ios">here</a>. Next, copy the contents of that folder to your local repository.</p>
-        <p>Open your local repository in your file manager and open to .github/workflows/build.yml. You may have to show hidden files if you're on Mac or Linux. Replace all occurences of "Example-Project" with your project name.</p>
-        <p>Export your project using the iOS preset and shove the Xcode Project into your local repository. IMPORTANT! DO NOT INCLUDE SPACES IN YOUR EXPORT FILENAME!!!</p>
-        <p>Run <code>git commit -m "Upload"</code> and <code>git push</code>.</p>
-        <p>If you get an error saying that you have exceeded GitHub's upload limit, follow the instructions <a href="https://github.com/mak448a/build-ios">here.</a></p>
-        <h2>Step 3: Download your build</h2>
-        <p>Visit your repository URL on GitHub and go to the Actions tab. Click on the topmost entry. If it is still yellow, wait a little longer. If it's green, scroll to the bottom and click the download button. You may have to refresh the page to see the download.</p>
+        <ol>
+            <li><p>Download my starter repository <a href="https://github.com/mak448a/build-ios">here</a>. Next, copy the contents of that folder to your local repository.</p></li>
+            <li><p>Open your local repository in your file manager and open to .github/workflows/build.yml. You may have to show hidden files if you're on Mac or Linux. Replace all occurences of "Example-Project" with your project name.</p></li>
+        </ol>
+
+        <h2>Step 3: Export and upload</h2>
+        <ol>
+            <li><p>Go to Project>Export and press Add...>iOS.</p></li>
+            <li><p>Fill "Bundle Identifier" in as <code>io.github.yourusername.yourgame</code> and fill App Store Team ID in as <code>1234</code>.</p></li>
+            <li><p>Click on "Export Project" and save it to your local repository that you downloaded in step 2.</p></li>
+            <li><p>Run <code>git commit -m "Upload"</code> and <code>git push</code>.</p></li>
+            <li><p>If you get an error saying that you have exceeded GitHub's upload limit, follow the instructions <a href="https://github.com/mak448a/build-ios">here to upload to Dropbox instead.</a></p></li>
+        </ol>
+
+        <h2>Step 4: Download your build</h2>
+        <ol>
+            <li><p>Visit your repository URL on GitHub and go to the Actions tab.</p></li>
+            <li><p>Click on the topmost entry.</p></li>
+            <li><p>Check the colored indicator. If it's still yellow, wait until it's green then refresh the page. Now, scroll to the bottom and click the download button.</p></li>
+        </ol>
+
         <h2>Questions? Comments?</h2>
-        <p>If you have any questions, don't hesitate to contact me at the email shown on <a href="/">my homepage</a>. If you want to just comment for other people, check below.</p>
+        <p>If you have any questions, you can either comment below and tag me with @mak448a or email me at by clicking on the mail icon on <a href="/">my homepage</a>. Thanks for reading my blog!</p>
+
+        <!-- Giscus comments -->
         <script src="https://giscus.app/client.js"
             data-repo="mak448a/giscus-for-my-blog"
             data-repo-id="R_kgDONOVugw"
