@@ -24,30 +24,30 @@ description: Ever wanted to compile a Godot app to an iPhone IPA without owning 
 
         <h2>Step 1: Setup GitHub repository</h2>
         <ol>
-            <li><p>First, create a GitHub repository. Set it to private if you don't want anyone downloading your game from here.</p></li>
-            <li><p>Now download it to your computer using git: <code>git pull (github.com/user/yourrepourl)</code></p></li>
+            <li>First, create a GitHub repository. Set it to private if you don't want anyone downloading your game from here.</li>
+            <li>Now download it to your computer using git: <code>git pull (github.com/user/yourrepourl)</code></li>
         </ol>
 
         <h2>Step 2: Create local GitHub repository</h2>
         <ol>
-            <li><p>Download my starter repository <a href="https://github.com/mak448a/build-ios">here</a>. Next, copy the contents of that folder to your local repository.</p></li>
-            <li><p>Open your local repository in your file manager and open to .github/workflows/build.yml. You may have to show hidden files if you're on Mac or Linux. Replace all occurences of "Example-Project" with your project name.</p></li>
+            <li>Download my starter repository <a href="https://github.com/mak448a/build-ios">here</a>. Next, copy the contents of that folder to your local repository.</li>
+            <li>Open your local repository in your file manager and open to .github/workflows/build.yml. You may have to show hidden files if you're on Mac or Linux. Replace all occurences of "Example-Project" with your project name.</li>
         </ol>
 
         <h2>Step 3: Export and upload</h2>
         <ol>
-            <li><p>Go to Project>Export and press Add...>iOS.</p></li>
-            <li><p>Fill "Bundle Identifier" in as <code>io.github.yourusername.yourgame</code> and fill App Store Team ID in as <code>1234</code>.</p></li>
-            <li><p>Click on "Export Project" and save it to your local repository that you downloaded in step 2.</p></li>
-            <li><p>Run <code>git commit -m "Upload"</code> and <code>git push</code>.</p></li>
-            <li><p>If you get an error saying that you have exceeded GitHub's upload limit, follow the instructions <a href="https://github.com/mak448a/build-ios">here to upload to Dropbox instead.</a></p></li>
+            <li>Go to Project>Export and press Add...>iOS.</li>
+            <li>Fill "Bundle Identifier" in as <code>io.github.yourusername.yourgame</code> and fill App Store Team ID in as <code>1234</code>.</li>
+            <li>Click on "Export Project" and save it to your local repository that you downloaded in step 2.</li>
+            <li>Run <code>git commit -m "Upload"</code> and <code>git push</code>.</li>
+            <li>If you get an error saying that you have exceeded GitHub's upload limit, follow the instructions <a href="https://github.com/mak448a/build-ios">here to upload to Dropbox instead.</a></li>
         </ol>
 
         <h2>Step 4: Download your build</h2>
         <ol>
-            <li><p>Visit your repository URL on GitHub and go to the Actions tab.</p></li>
-            <li><p>Click on the topmost entry.</p></li>
-            <li><p>Check the colored indicator. If it's still yellow, wait until it's green then refresh the page. Now, scroll to the bottom and click the download button.</p></li>
+            <li>Visit your repository URL on GitHub and go to the Actions tab.</li>
+            <li>Click on the topmost entry.</li>
+            <li>Check the colored indicator. If it's still yellow, wait until it's green then refresh the page. Now, scroll to the bottom and click the download button.</li>
         </ol>
 
         <h2>Questions? Comments?</h2>
