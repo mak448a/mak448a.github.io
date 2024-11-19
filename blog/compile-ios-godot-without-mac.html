@@ -5,70 +5,68 @@ permalink: /blog/compile-ios-godot-without-mac
 description: Ever wanted to compile a Godot app to an iPhone IPA without owning a Mac/Apple PC? This guide is for you! You only need a GitHub account.
 ---
 
-<main>
-    <div class="main-content">
-        <h1>How to compile a Godot project to iOS without a Mac</h1>
-        <p>If you don't have a Mac, there's an easy way to compile Godot projects (or most XCode projects for that matter) to iOS.</p>
+<div class="main-content">
+    <h1>How to compile a Godot project to iOS without a Mac</h1>
+    <p>If you don't have a Mac, there's an easy way to compile Godot projects (or most XCode projects for that matter) to iOS.</p>
 
-        <p><strong>Date: July 22, 2024</strong></p>
-        <p>Modified November 12, 2024</p>
-        <p>Author: mak448a</p>
+    <p><strong>Date: July 22, 2024</strong></p>
+    <p>Modified November 12, 2024</p>
+    <p>Author: mak448a</p>
 
 
-        <h2>Requirements</h2>
-        <ul>
-            <li>Git installed on your computer</li>
-            <li>A GitHub account</li>
-            <li>Basic Git + GitHub knowledge</li>
-        </ul>
+    <h2>Requirements</h2>
+    <ul>
+        <li>Git installed on your computer</li>
+        <li>A GitHub account</li>
+        <li>Basic Git + GitHub knowledge</li>
+    </ul>
 
-        <h2>Step 1: Setup GitHub repository</h2>
-        <ol>
-            <li>First, create a GitHub repository. Set it to private if you don't want anyone downloading your game from here.</li>
-            <li>Now download it to your computer using git: <code>git pull (github.com/user/yourrepourl)</code></li>
-        </ol>
+    <h2>Step 1: Setup GitHub repository</h2>
+    <ol>
+        <li>First, create a GitHub repository. Set it to private if you don't want anyone downloading your game from here.</li>
+        <li>Now download it to your computer using git: <code>git pull (github.com/user/yourrepourl)</code></li>
+    </ol>
 
-        <h2>Step 2: Create local GitHub repository</h2>
-        <ol>
-            <li>Download my starter repository <a href="https://github.com/mak448a/build-ios">here</a>. Next, copy the contents of that folder to your local repository.</li>
-            <li>Open your local repository in your file manager and open to .github/workflows/build.yml. You may have to show hidden files if you're on Mac or Linux. Replace all occurences of "Example-Project" with your project name.</li>
-        </ol>
+    <h2>Step 2: Create local GitHub repository</h2>
+    <ol>
+        <li>Download my starter repository <a href="https://github.com/mak448a/build-ios">here</a>. Next, copy the contents of that folder to your local repository.</li>
+        <li>Open your local repository in your file manager and open to .github/workflows/build.yml. You may have to show hidden files if you're on Mac or Linux. Replace all occurences of "Example-Project" with your project name.</li>
+    </ol>
 
-        <h2>Step 3: Export and upload</h2>
-        <ol>
-            <li>Go to Project>Export and press Add...>iOS.</li>
-            <li>Fill "Bundle Identifier" in as <code>io.github.yourusername.yourgame</code> and fill App Store Team ID in as <code>1234</code>.</li>
-            <li>Click on "Export Project" and save it to your local repository that you downloaded in step 2.</li>
-            <li>Run <code>git commit -m "Upload"</code> and <code>git push</code>.</li>
-            <li>If you get an error saying that you have exceeded GitHub's upload limit, follow the instructions <a href="https://github.com/mak448a/build-ios">here to upload to Dropbox instead.</a></li>
-        </ol>
+    <h2>Step 3: Export and upload</h2>
+    <ol>
+        <li>Go to Project>Export and press Add...>iOS.</li>
+        <li>Fill "Bundle Identifier" in as <code>io.github.yourusername.yourgame</code> and fill App Store Team ID in as <code>1234</code>.</li>
+        <li>Click on "Export Project" and save it to your local repository that you downloaded in step 2.</li>
+        <li>Run <code>git commit -m "Upload"</code> and <code>git push</code>.</li>
+        <li>If you get an error saying that you have exceeded GitHub's upload limit, follow the instructions <a href="https://github.com/mak448a/build-ios">here to upload to Dropbox instead.</a></li>
+    </ol>
 
-        <h2>Step 4: Download your build</h2>
-        <ol>
-            <li>Visit your repository URL on GitHub and go to the Actions tab.</li>
-            <li>Click on the topmost entry.</li>
-            <li>Check the colored indicator. If it's still yellow, wait until it's green then refresh the page. Now, scroll to the bottom and click the download button.</li>
-        </ol>
+    <h2>Step 4: Download your build</h2>
+    <ol>
+        <li>Visit your repository URL on GitHub and go to the Actions tab.</li>
+        <li>Click on the topmost entry.</li>
+        <li>Check the colored indicator. If it's still yellow, wait until it's green then refresh the page. Now, scroll to the bottom and click the download button.</li>
+    </ol>
 
-        <h2>Questions? Comments?</h2>
-        <p>If you have any questions, you can either comment below and tag me with @mak448a or email me at by clicking on the mail icon on <a href="/">my homepage</a>. Thanks for reading my blog!</p>
+    <h2>Questions? Comments?</h2>
+    <p>If you have any questions, you can either comment below and tag me with @mak448a or email me at by clicking on the mail icon on <a href="/">my homepage</a>. Thanks for reading my blog!</p>
 
-        <!-- Giscus comments -->
-        <script src="https://giscus.app/client.js"
-            data-repo="mak448a/giscus-for-my-blog"
-            data-repo-id="R_kgDONOVugw"
-            data-category="Announcements"
-            data-category-id="DIC_kwDONOVug84CkNYD"
-            data-mapping="url"
-            data-strict="0"
-            data-reactions-enabled="1"
-            data-emit-metadata="0"
-            data-input-position="top"
-            data-theme="dark"
-            data-lang="en"
-            data-loading="lazy"
-            crossorigin="anonymous"
-            async>
-        </script>
-    </div>
-</main>
+    <!-- Giscus comments -->
+    <script src="https://giscus.app/client.js"
+        data-repo="mak448a/giscus-for-my-blog"
+        data-repo-id="R_kgDONOVugw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDONOVug84CkNYD"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+    </script>
+</div>
