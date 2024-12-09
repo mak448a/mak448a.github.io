@@ -5,7 +5,11 @@ layout: default
 <div class="main-content">
     <h1>{{ page.title }}</h1>
     <p>Date: {{ page.date }}</p>
+    {% if page.edited %}
+    <p>Modified: {{ page.edited }}</p>
+    {% endif %}
     <p>Author: mak448a</p>
+    <hr>
     {{ content }}
     <script src="https://giscus.app/client.js"
         data-repo="mak448a/giscus-for-my-blog"
