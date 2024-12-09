@@ -9,21 +9,24 @@ edited: December 8, 2024
 
 Ever wanted to compile a Godot app to an iPhone IPA without owning a Mac or renting a Mac in the cloud? This guide is for you!
 
+Please give [my repository](https://github.com/mak448a/build-ios) a star on GitHub if this helps!
+
+
 ## Requirements
 - gh CLI
 - git
 - Python
 
-## Installation and Configuration
-1. Download the GitHub repository for building an IPA with 
+## Guide
+1. Download [build-ios](https://github.com/mak448a/build-ios) with the following command.
 ```shell
-git clone https://github.com/mak448a/build-ios
+git clone https://github.com/mak448a/build-ios --depth=1
 ```
-2. Change the current directory to build-ios with
+1. Change the current directory to build-ios with
 ```shell
 cd build-ios
 ```
-3. Install dependencies with the commands below. Choose the one for your operating system.
+1. Install dependencies with the commands below. Choose the one for your operating system.
 
 **Windows**
 ```shell
@@ -50,9 +53,7 @@ You can name your app whatever you want, as long as it's unique.
 ```shell
 python main.py
 ```
-
-## Usage
-When you launch the CLI with `python main.py`, it'll prompt you to choose whether you want to build or edit an IPA. For the first time, choose build IPA.
+6. When you launch the CLI with `python main.py`, it'll prompt you to choose whether you want to build or edit an IPA. For the first time, choose build IPA.
 
 ### Mode instructions
 **Build IPA:**
