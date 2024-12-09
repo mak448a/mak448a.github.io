@@ -12,12 +12,17 @@ Ever wanted to compile a Godot app to an iPhone IPA without owning a Mac or rent
 ## Requirements
 - gh CLI
 - git
+- Python
 
 ## Installation and Configuration
-1. [Download Python](https://python.org). Make sure to check the box that says "Add to PATH" if you're on Windows.
-2. Go to the path where you downloaded this repository. 
-   - For Windows, go to the folder and press on the address bar. Then, type in cmd and press enter.
-   - For Linux, type `cd` and then the path you want in your terminal.
+1. Download the GitHub repository for building an IPA with 
+```shell
+git clone https://github.com/mak448a/build-ios
+```
+2. Change the current directory to build-ios with
+```shell
+cd build-ios
+```
 3. Install dependencies with the commands below. Choose the one for your operating system.
 
 **Windows**
@@ -33,7 +38,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-4. Visit https://www.dropbox.com/developers/apps to get your key.
+4. Visit https://www.dropbox.com/developers/apps to get a token for using with the tool.
 ![Screenshot of "create new app"](https://raw.githubusercontent.com/mak448a/build-ios/refs/heads/main/tutorial/1.png)
 You can name your app whatever you want, as long as it's unique.
 ![Screenshot of app naming](https://raw.githubusercontent.com/mak448a/build-ios/refs/heads/main/tutorial/2.png)
@@ -64,7 +69,3 @@ When you launch the CLI with `python main.py`, it'll prompt you to choose whethe
 
 ## Troubleshooting
 If you get an `AuthError('expired_access_token', None))`, that means that you need to get a new OAuth token from Dropbox.
-
-## Other notes
-Started work on this project ~11/2024.
-Inspired by [u/_atreat](https://www.reddit.com/r/godot/comments/vlwrj0/comment/idxn5z8/) and [u/Host127001](https://www.reddit.com/r/godot/comments/s0pj02/comment/hs3rjl3/) who suggested building with Github actions.
