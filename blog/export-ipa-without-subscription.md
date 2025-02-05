@@ -19,3 +19,6 @@ date: November 14, 2024
 8. Right click the Payload folder and compress it.
 9. Rename the file from `Payload.zip` to `yourapp.ipa`.
 10. Enjoy your exported IPA! You can now sideload it with something like AltStore!
+
+## Credits
+This guide is based on [a tutorial from YouTube](https://youtu.be/rrlOPUgbae8).
