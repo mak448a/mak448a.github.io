@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: How to Export an IPA without an Apple Developer Subscription
-description: Apple doesn't let you export to IPA format without a subscription. But thankfully, there's an easy way to get around this. Follow this quick tutorial and you too will know how to export an IPA! This works as of November 14, 2024.
+description: Apple doesn't let you export to IPA format without a subscription. But thankfully, there's an easy way to get around this. Follow this quick tutorial and export your IPA files today without an Apple Developer subscription!
 date: November 14, 2024
 ---
 
