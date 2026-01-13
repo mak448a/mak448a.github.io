@@ -13,11 +13,14 @@ Please give [my repository](https://github.com/mak448a/build-ios) a star on GitH
 
 
 ## Requirements
-- gh CLI
-- git
+- GitHub CLI
+- Git
 - Python
+- Godot Engine
 
 ## Guide
+1. Inside your project, go to `Project>Export...>Add..>iOS` and set team and bundle identification. Since this project builds an unsigned IPA, you can put anything for the team.
+1. Press `Export Project` and save it to a new folder.
 1. Download [build-ios](https://github.com/mak448a/build-ios) with the following command.
 ```shell
 git clone https://github.com/mak448a/build-ios --depth=1
