@@ -32,9 +32,11 @@ cd build-ios
 1. Install dependencies with the commands below. Choose the one for your operating system.
 
 **Windows**
+(Run in command prompt)
+
 ```shell
 python -m venv venv
-source venv/bin/activate
+venv\Scripts/activate
 pip install -r requirements.txt
 ```
 
