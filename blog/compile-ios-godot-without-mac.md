@@ -4,7 +4,7 @@ title: How to export a Godot Project to iOS without a Mac for free
 permalink: /blog/compile-ios-godot-without-mac
 description: Ever wanted to compile a Godot app to an iPhone IPA without owning a Mac or renting a Mac in the cloud? This guide teaches you how to export a Godot Project or XCodeProject to iOS without owning a Mac.
 date: July 22, 2024
-edited: March 19, 2025
+edited: Apr 10, 2026
 ---
 
 Ever wanted to export a Godot app or project to an iPhone IPA without owning a Mac or renting a Mac in the cloud? This guide is for you!
@@ -62,10 +62,10 @@ python main.py
 
 ### Mode instructions
 **Build IPA:**
-- Follow the prompts.
+- Follow the prompts. After it builds, you can download your IPA file from GitHub.
 
 **Edit IPA:**
-- When exporting your Godot Project, choose "Export PCK/ZIP" and save it as `yourproject.pck`.
+- When exporting your Godot Project, choose "Export PCK/ZIP" and save it as `yourproject.pck`. The IPA file will be changed to include the new changes in the `.pck` file.
 
 ### But what's the difference?
 - Build IPA is for the first time you run the CLI. It makes a fresh build of your project.
