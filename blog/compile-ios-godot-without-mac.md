@@ -74,9 +74,13 @@ python main.py
 - Build IPA is for the first time you run the CLI. It makes a fresh build of your project.
 - Edit IPA is for afterwards. You can export with the PCK only, and it'll replace some of the files in the IPA. If you didn't change any settings in `project.godot`, it should work perfectly! If you did though, rebuild the IPA.
 
-
-
 ## Troubleshooting
 If you get an `AuthError('expired_access_token', None))`, that means that you need to get a new OAuth token from Dropbox.
 If you still have problems, open an issue in this repository.
 While you're waiting, try following the [original instructions](https://github.com/mak448a/build-ios/tree/main/original_repo).
+
+## Notes and credits
+- Edit IPA function inspired by [this article by RandomMomentania](https://randommomentania.com/2022/01/godot-easy-ios-app-testing/)
+- Started work on this project ~11/2024.
+- Inspired by [u/_atreat](https://www.reddit.com/r/godot/comments/vlwrj0/comment/idxn5z8/) and [u/Host127001](https://www.reddit.com/r/godot/comments/s0pj02/comment/hs3rjl3/) who suggested building with GitHub Actions.
+
