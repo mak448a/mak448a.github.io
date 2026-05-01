@@ -19,7 +19,7 @@ Please give [my repository](https://github.com/mak448a/build-ios) a star on GitH
 - Godot Engine
 
 ## Guide
-1. First, download Python, Git, and GitHub. Make sure to check the box that says "Add to PATH" when installing Python if you're on Windows. Run this command if you want to install Git and GitHub on Windows: `winget install Git.Git GitHub.cli`
+1. First, download Python, Git, and GitHub. Make sure to check the box that says "Add to PATH" when installing Python if you're on Windows. Run this command if you want to install Git and GitHub on Windows: `winget install Git.Git GitHub.cli`, then log into GitHub with `gh auth login`.
 2. Inside your project, go to `Project>Export...>Add..>iOS` and set team and bundle identification. Since this project builds an unsigned IPA, you can put anything for the team.
 3. Press `Export Project` and save it to a new folder.
 4. Download [build-ios](https://github.com/mak448a/build-ios) with the following command.
