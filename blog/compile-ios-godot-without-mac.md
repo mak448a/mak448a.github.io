@@ -4,7 +4,7 @@ title: How to export a Godot Project to iOS without a Mac for free
 permalink: /blog/compile-ios-godot-without-mac
 description: Ever wanted to compile a Godot app to an iPhone IPA without owning a Mac or renting a Mac in the cloud? This guide teaches you how to export a Godot Project or XCodeProject to iOS without owning a Mac.
 date: July 22, 2024
-edited: Apr 20, 2026
+edited: Jun 16, 2026
 ---
 
 Ever wanted to export a Godot app or project to an iPhone IPA without owning a Mac or renting a Mac in the cloud? This guide is for you!
@@ -55,12 +55,12 @@ You can name your app whatever you want, as long as it's unique.
 ![Screenshot of going to permissions tab](https://raw.githubusercontent.com/mak448a/build-ios/refs/heads/main/tutorial/4.png)
 ![Screenshot of permissions](https://raw.githubusercontent.com/mak448a/build-ios/refs/heads/main/tutorial/5.png)
 ![Screenshot of submit button](https://raw.githubusercontent.com/mak448a/build-ios/refs/heads/main/tutorial/6.png)
-8. Add `TOKEN=YOURKEYHERE` (replace the token with your token) in the file `.env`.
+8. Create the file `.env` and add `TOKEN=YOURKEYHERE` (replace the token with your token) to it.
 9. Run the Python script!
 ```shell
 python main.py
 ```
-10. (Optional) If you want to skip writing in the questions every time you want to build, add the answeres to the `.env` file. Make sure to check `example.env` for how to do this!
+10. (Optional) If you want to skip writing in the questions every time you want to build, add the answers to the `.env` file. Make sure to check `example.env` for how to do this!
 11. When you launch the CLI with `python main.py`, it'll prompt you to choose whether you want to build or edit an IPA. For the first time, choose build IPA.
 
 ### Mode instructions
