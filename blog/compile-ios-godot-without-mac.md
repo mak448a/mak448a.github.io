@@ -4,7 +4,7 @@ title: How to export a Godot Project to iOS without a Mac for free
 permalink: /blog/compile-ios-godot-without-mac
 description: Ever wanted to compile a Godot app to an iPhone IPA without owning a Mac or renting a Mac in the cloud? This guide teaches you how to export a Godot Project or XCodeProject to iOS without owning a Mac.
 date: July 22, 2024
-edited: Jun 16, 2026
+edited: July 1, 2026
 ---
 
 Ever wanted to export a Godot app or project to an iPhone IPA without owning a Mac or renting a Mac in the cloud? This guide is for you!
