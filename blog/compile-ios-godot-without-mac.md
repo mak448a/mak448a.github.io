@@ -76,7 +76,7 @@ When the program asks you for a path, you can drag in a file into the terminal w
 - Follow the prompts. After it builds, you can download your IPA file from GitHub.
 
 **Edit IPA:**
-- When exporting your Godot Project, choose "Export PCK/ZIP" and save it as `yourproject.pck`. The IPA file will be changed to include the new changes in the `.pck` file.
+- When exporting your Godot Project, choose "Export PCK/ZIP" and save it as `yourproject.pck`. Put it in the folder where you saved the IPA file. The IPA file will be changed to include the new changes in the `.pck` file.
 
 ### But what's the difference?
 - Build IPA is for the first time you run the CLI. It makes a fresh build of your project.
